@@ -118,9 +118,15 @@ nav {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(135deg, #f5f7fa 0%, #e8f0f7 100%);
-  padding: 4rem 2rem;
+  background-image: url("images/cherrydeck-rMILC1PIwM0-unsplash.jpg") ,linear-gradient(135deg, #080808 0%, #00090f 100%);
+  background-position: center;
+  background-size: cover;
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  border-radius:0 0 50% 50% ;
 }
 
 .hero h1 {
